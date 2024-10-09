@@ -1,0 +1,23 @@
+print("Welcome to the Annual Spelling Bee!")
+print(“spell the following words right")
+roomSelection = input("Type the word that is spelled correctly, nauseous or nauseaus”)
+if roomSelection =="nauseous":
+    print(" Correct! Well done.")
+    roomSelection = input("Type the words that is spelled correctly, Pharaoh or Pharoh")
+    if roomSelection == "Pharoh":
+        print(" Wrong! Come back when you’re more educated!")
+    elif roomSelection == "Pharaoh":
+        print("Well done!")
+    else:
+        print("Nathan’s stupid. Program is closing")
+elif roomSelection == "nauseaus":
+    print("Spelled wrong!")
+    roomSelection = input("Type the word that is spelled correctly, Drowning or Drownding")
+    if roomSelection == "Drowning":
+        print("Well done! Three for three! Game Completed!")
+    elif roomSelection == "Drownding":
+        print("Nope, two for three. Come back when you’re smarter!")
+    else:
+        print("Wrong! Program is closing")
+else:
+    print("Wrong! Program is closing")
